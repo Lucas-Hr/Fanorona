@@ -1,0 +1,161 @@
+#board{
+    margin-left: 500px;
+    margin-top: 100px;
+    height: 400px;
+    width: 400px;
+    border: solid black 1px;
+    /* position: relative; */
+}
+
+
+#horizontale{
+    margin-top: 200px;
+}
+
+#verticale{
+    transform: rotate(90deg);
+    margin-top: -18px;
+}
+
+#diagonale1, #diagonale2{
+    position: absolute;
+}
+
+#diagonale1{
+    width: 565px;
+    height: 1px;
+    transform: rotate(45deg);
+    top: 300px;
+    left: 417px;
+}
+
+#diagonale2{
+    width: 565px;
+    height: 1px;
+    transform: rotate(-45deg);
+    top: 300px;
+    left: 417px;
+}
+
+.places{
+    position: absolute;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: solid green 1px;
+}
+
+.places:hover{
+    box-shadow: rgb(14, 255, 14) 0px 0px 10px 1px;
+    cursor: pointer;
+}
+
+#circle1{
+    top: 70px;
+    left:480px;
+}
+
+#circle2{
+    top: 70px;
+    left:675px;
+}
+
+#circle3{
+    top:70px;
+    left:870px;
+}
+
+#circle4{
+    top: 275px;
+    left:480px;
+}
+
+#circle5{
+    top: 275px;
+    left:675px;
+}
+
+#circle6{
+    top: 275px;
+    left:870px;
+}
+
+#circle7{
+    top: 470px;
+    left:480px;
+}
+
+#circle8{
+    top: 470px;
+    left:675px;
+}
+
+#circle9{
+    top: 470px;
+    left:870px;
+}
+
+.pieces{
+    cursor: pointer;
+    z-index: 10000;
+}
+
+#pieces1,#pieces2{
+    position: absolute;
+}
+
+#pieces1{
+    left: 100px;
+    top: 100px;
+}
+
+#pieces2{
+    left: 100px;
+    top: 100px;
+}
+
+#pieces1 div{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;    
+}
+
+#piece1-1{
+    left: 0;
+}
+
+#piece1-2{
+    left: 0;
+    top: 100px;
+}
+
+#piece1-3{
+    left: 0;
+    top: 200px;
+}
+
+
+#pieces2 div{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#piece2-1{
+    left: 100px;
+    top: 0px;
+}
+
+#piece2-2{
+    left: 100px;
+    top: 100px;
+}
+
+#piece2-3{
+    left: 100px;
+    top: 200px;
+}
