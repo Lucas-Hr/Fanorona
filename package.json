@@ -1,11 +1,6 @@
 {
-  "files": [
-    "src/"
-  ],
-
   "name": "fanorona",
   "version": "1.0.0",
-  "homepage": "http://Lucas-Hr.github.io/Fanorona",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,9 +14,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "typescript": "^5.0.4"
-  },
-  "dependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
